@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="Gs3jCL2.png">
-</p>
+</p> 
 
 In this assignment, we are analyzing the internet disparity accross the world. We used several metrics to compare countries with each other: Speed, Cost, ... .
 
