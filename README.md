@@ -24,6 +24,14 @@ In this assignment, we are analyzing the internet disparity accross the world. W
     * Created JSON files (Flask + Python)
     * Web (HTML, JavaScript, ...)
 
+## Participants
+* Anna Wrobel
+* Latyr Thiao
+* Leah Lindy
+* Lujane Abdelgadir
+* Prajakta Galvankar
+* Stephen Zhang
+
 ## Website or Links
 https://latyrt.github.io/17_Project_2/Global%20Page%20-%20Working%20Draft/global.html
 
