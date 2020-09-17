@@ -33,7 +33,7 @@ In this assignment, we are analyzing the internet disparity accross the world. W
 * Stephen Zhang
 
 ## Website or Links
-https://latyrt.github.io/17_Project_2/Global%20Page%20-%20Working%20Draft/global.html
+https://latyrt.github.io/17_Global_Digital_Divide_Project_2/index.html
 
 ## Results
 
