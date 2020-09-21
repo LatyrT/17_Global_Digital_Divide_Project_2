@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title> Team Project 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+ 
+ 
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="app2.js"></script>
+
+
+  </head>
+
+<body>
+  <div class="wrapper">
+    
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="../index.html"> <p><img class="nav-wifi" src="static/images/wifi.png">"      The Digital Divide </p> </a>           
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../Global Page - Working Draft/global.html"><p>Global</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Regional/index.html"><p>Regional</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><p>Country</p></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+      </div>
+    
+    
+    <div class="text-center">
+      <h1>Country Analysis</h1>
+      <h2>This page provides an analysis of internet usage by country</h2>
+    </div>
+<body>
+
+  
+    <div class="row">
+      <div class="col-md-2">
+        <p></p>
+      </div>
+      <div class="col-md-9 jumbotron text-center">
+        <p>Use the filters below to explore the Web Index ratings by country</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container">
+        <div class="row margin-top-50">
+          <div class="col-md-3">
+            <aside class="filters">
+              <div class="panel panel-default">
+                <div class="panel-heading">Filter Search</div>
+                <div class="panel-body">
+                  <form>
+                    <div class="form-group">
+                      <ul class="list-group" id="filters">
+                        <li class="filter list-group-item">
+                          <label for="countries">Enter a Country</label>
+                          <input class="form-control" id="countries" type="text" placeholder="Canada">
+                        </li>
+                        <li class="filter list-group-item">
+                          <label for="overall">Overall rate >= </label>
+                          <input class="form-control" id="overalls" type="text" placeholder="75">
+                        </li>
+                        <li class="filter list-group-item">
+                          <label for="universal_access">Universal Access >=</label>
+                          <input class="form-control" id="universals" type="text" placeholder="75">
+                        </li>
+                       
+                        <li class="filter list-group-item">
+                          <label for="freedomopenness">Freedom & Openness >=</label>
+                          <input class="form-control" id="freedoms" type="text" placeholder="75">
+                        </li>
+                        <li class="filter list-group-item">
+                          <label for="relevant_content">Relevant Content >=</label>
+                          <input class="form-control" id="relevant_content" type="text" placeholder="75">
+                        </li>
+                        
+                        <li class="filter list-group-item">
+                          <label for="empowerment">Empowerment >=</label>
+                          <input class="form-control" id="empowerment" type="text" placeholder="75">
+                        </li>
+                      </ul>
+                    </div>
+                    <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                  </form>
+                </div>
+              </div>
+            </aside>
+          </div>
+          <div class="col-md-9">
+            <div id="table-area" class="">
+              <table id="ufo-table" class="table table-striped">
+                <thead>
+                  <tr >
+                    <th class="table-head" style="text-align:left">Countries</th>
+                    <th class="table-head">Empowerment </th>
+                    <th class="table-head">Freedom & Openness</th>
+                    <th class="table-head">Latitude</th>
+                    <th class="table-head">Longitude</th>
+                    <th class="table-head">Overall score</th>
+                    <th class="table-head">Universal Access</th>
+                    <th class="table-head">Relevant Content</th>
+                    
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="app2.js"></script>
+  <!--<script src="./static/js/bonus.js"></script>-->
+
+</body>
+
+</html>
