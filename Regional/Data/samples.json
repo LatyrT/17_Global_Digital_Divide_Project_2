@@ -1,7 +1,0 @@
-{
-  "names":["Universal Access", "Empowerment"],
-  "metadata":[{"id": "Universal Access", "Definition": "This criteria measures each country's communication infrastructure, the level of access and affordability of digital services as well as the level of education and awareness of such facilities "}, {"id": "Empowerment", "Definition": "Definition"}],
-  "samples":[{"id": "Universal Access", "country": ["Africa","Asia","Europe", "Latin America / Caribbean", "Middle East","North America", "Australia", "WORLD TOTAL"], "score": [1340598447, 4294516659, 834995197, 658345826, 260991690, 368869647, 42690838, 7796949710], "rank": ["17.20%","55.10%","10.70%","8.50%","3.90%","4.70%","0.50%","100.00%"]}, 
-  {"id": "Empowerment", "country": ["UK", "US", "Sweden", "Denmark", "Finland", "Norway", "France", "Netherlands", "Switzerland", "Austria", "Republic Of Korea", "Estonia", "Germany", "New Zealand", "Canada", "Iceland"], "score": [100, 100, 95, 94, 93, 87, 86, 84, 84, 83, 83, 80, 79, 78, 77], "rank": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}]
-}
-

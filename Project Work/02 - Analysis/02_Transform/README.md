@@ -1,1 +1,0 @@
-# JavascriptDashboardChallenge.github.io
