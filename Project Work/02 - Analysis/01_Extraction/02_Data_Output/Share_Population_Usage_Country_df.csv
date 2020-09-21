@@ -1,0 +1,259 @@
+Country_ID,Country_Code,Country_Name
+1,GBR,United Kingdom
+2,IRL,Ireland
+3,FRA,France
+4,BEL,Belgium
+5,NLD,Netherlands
+6,DEU,Germany
+7,CHE,Switzerland
+8,ITA,Italy
+9,ESP,Spain
+10,SWE,Sweden
+11,POL,Poland
+12,RUS,Russia
+13,USA,United States
+14,JPN,Japan
+15,AFG,Afghanistan
+16,ALB,Albania
+17,DZA,Algeria
+18,AND,Andorra
+19,AGO,Angola
+20,ATG,Antigua and Barbuda
+21,ARG,Argentina
+22,ARM,Armenia
+23,AUS,Australia
+24,AUT,Austria
+25,AZE,Azerbaijan
+26,BHS,Bahamas
+27,BHR,Bahrain
+28,BGD,Bangladesh
+29,BRB,Barbados
+30,BLR,Belarus
+31,BLZ,Belize
+32,BEN,Benin
+33,BTN,Bhutan
+34,BOL,Bolivia
+35,BIH,Bosnia and Herzegovina
+36,BWA,Botswana
+37,BRA,Brazil
+38,BRN,Brunei
+39,BGR,Bulgaria
+40,BFA,Burkina Faso
+41,BDI,Burundi
+42,KHM,Cambodia
+43,CMR,Cameroon
+44,CAN,Canada
+45,CPV,Cape Verde
+60,ZMB,Zambia
+61,YEM,Yemen
+62,UZB,Uzbekistan
+63,URY,Uruguay
+64,TZA,Tanzania
+65,EGY,Egypt
+66,MKD,Macedonia
+67,UKR,Ukraine
+68,UGA,Uganda
+69,TKM,Turkmenistan
+70,TUR,Turkey
+71,TUN,Tunisia
+72,ARE,United Arab Emirates
+73,TTO,Trinidad and Tobago
+74,TGO,Togo
+75,THA,Thailand
+76,TJK,Tajikistan
+78,SWZ,Swaziland
+79,SDN,Sudan
+80,ZWE,Zimbabwe
+81,ZAF,South Africa
+82,SOM,Somalia
+83,SVN,Slovenia
+84,VNM,Vietnam
+85,SVK,Slovakia
+86,SGP,Singapore
+87,SLE,Sierra Leone
+88,SRB,Serbia
+89,SEN,Senegal
+90,SAU,Saudi Arabia
+91,RWA,Rwanda
+92,ROU,Romania
+93,PRI,Puerto Rico
+94,GNB,Guinea-Bissau
+95,PRT,Portugal
+96,PHL,Philippines
+97,PER,Peru
+98,PRY,Paraguay
+99,PNG,Papua New Guinea
+100,PAN,Panama
+101,PAK,Pakistan
+102,NOR,Norway
+103,NGA,Nigeria
+104,NER,Niger
+105,NIC,Nicaragua
+106,NZL,New Zealand
+107,NPL,Nepal
+108,NAM,Namibia
+109,MOZ,Mozambique
+110,MAR,Morocco
+111,MDA,Moldova
+112,MNG,Mongolia
+113,MEX,Mexico
+114,MRT,Mauritania
+115,MLI,Mali
+116,MYS,Malaysia
+117,MWI,Malawi
+118,MDG,Madagascar
+119,LTU,Lithuania
+120,LBY,Libya
+121,LBR,Liberia
+122,LVA,Latvia
+123,LSO,Lesotho
+124,LBN,Lebanon
+125,LAO,Laos
+126,KGZ,Kyrgyzstan
+127,KOR,South Korea
+128,PRK,North Korea
+129,KEN,Kenya
+130,JOR,Jordan
+131,KAZ,Kazakhstan
+132,JAM,Jamaica
+133,ISR,Israel
+134,IRQ,Iraq
+135,IRN,Iran
+136,IDN,Indonesia
+137,IND,India
+138,HUN,Hungary
+139,HND,Honduras
+140,PSE,Palestine
+141,LKA,Sri Lanka
+142,MMR,Myanmar
+143,CIV,Cote d'Ivoire
+144,HKG,Hong Kong
+145,HTI,Haiti
+146,GUY,Guyana
+147,GIN,Guinea
+148,GTM,Guatemala
+149,GRC,Greece
+150,GHA,Ghana
+151,GMB,Gambia
+152,GEO,Georgia
+153,GAB,Gabon
+154,DJI,Djibouti
+155,FIN,Finland
+156,EST,Estonia
+157,ERI,Eritrea
+158,ETH,Ethiopia
+159,GNQ,Equatorial Guinea
+160,DOM,Dominican Republic
+161,DNK,Denmark
+162,CZE,Czech Republic
+163,CYP,Cyprus
+164,CUB,Cuba
+165,HRV,Croatia
+166,CRI,Costa Rica
+167,COD,Democratic Republic of Congo
+168,COG,Congo
+169,COM,Comoros
+170,COL,Colombia
+171,CHN,China
+172,CHL,Chile
+173,TCD,Chad
+174,CAF,Central African Republic
+194,BMU,Bermuda
+195,SLB,Solomon Islands
+196,VGB,British Virgin Islands
+197,CYM,Cayman Islands
+200,DMA,Dominica
+201,ECU,Ecuador
+202,FJI,Fiji
+203,PYF,French Polynesia
+204,KIR,Kiribati
+205,GRL,Greenland
+206,GRD,Grenada
+207,ISL,Iceland
+208,KWT,Kuwait
+209,LIE,Liechtenstein
+210,LUX,Luxembourg
+211,MDV,Maldives
+212,MLT,Malta
+213,MUS,Mauritius
+214,MCO,Monaco
+215,MNE,Montenegro
+217,OMN,Oman
+218,NRU,Nauru
+219,ABW,Aruba
+220,NCL,New Caledonia
+221,VUT,Vanuatu
+222,FSM,Micronesia (country)
+223,MHL,Marshall Islands
+224,PLW,Palau
+225,TLS,Timor
+226,QAT,Qatar
+227,KNA,Saint Kitts and Nevis
+229,LCA,Saint Lucia
+230,VCT,Saint Vincent and the Grenadines
+231,SMR,San Marino
+232,STP,Sao Tome and Principe
+233,SYC,Seychelles
+234,SUR,Suriname
+235,TON,Tonga
+236,TCA,Turks and Caicos Islands
+237,TUV,Tuvalu
+238,VEN,Venezuela
+239,WSM,Samoa
+246,ASM,American Samoa
+250,FRO,Faeroe Islands
+251,GIB,Gibraltar
+254,GUM,Guam
+256,VIR,United States Virgin Islands
+258,SSD,South Sudan
+259,SLV,El Salvador
+262,MAC,Macao
+266,MNP,Northern Mariana Islands
+279,CUW,Curacao
+289,,Sub-Saharan Africa
+293,,Middle East & North Africa
+294,,North America
+302,,South Asia
+309,,Arab World
+310,,Central Europe and the Baltics
+312,,Caribbean small states
+317,,Euro area
+318,,European Union
+319,,Fragile and conflict affected situations
+320,,High income
+321,,Heavily indebted poor countries (HIPC)
+325,,Least developed countries: UN classification
+326,,Low income
+327,,Lower middle income
+328,,Low & middle income
+330,,Middle income
+334,,OECD members
+335,,Other small states
+336,,Pacific island small states
+339,,Small states
+340,,Upper middle income
+344,,Latin America & Caribbean
+345,,East Asia & Pacific
+355,OWID_WRL,World
+4673,,East Asia & Pacific (excluding high income)
+4674,,Early-demographic dividend
+4675,,Europe & Central Asia (excluding high income)
+4676,,Europe & Central Asia
+4677,,IBRD only
+4678,,IDA & IBRD total
+4679,,IDA total
+4680,,IDA blend
+4681,,IDA only
+4682,,Latin America & Caribbean (excluding high income)
+4683,,Late-demographic dividend
+4684,,Middle East & North Africa (excluding high income)
+4685,,Pre-demographic dividend
+4687,,Post-demographic dividend
+4688,,Sub-Saharan Africa (excluding high income)
+4693,,South Asia (IDA & IBRD)
+34680,,East Asia & Pacific (IDA & IBRD)
+34681,,Europe & Central Asia (IDA & IBRD)
+34682,,Latin America & Caribbean (IDA & IBRD)
+34683,,Middle East & North Africa (IDA & IBRD)
+34684,,Sub-Saharan Africa (IDA & IBRD)
+54362,,Syrian Arab Republic
